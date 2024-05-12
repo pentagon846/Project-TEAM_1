@@ -17,7 +17,7 @@ from src.database.db import get_db
 from src.routes import auth, users, photos, transformation, comments, rating, tags, admin
 
 from src.conf.config import config
-from src.utils.py_logger import get_logger
+# from src.utils.py_logger import get_logger
 
 from fastapi.templating import Jinja2Templates
 
