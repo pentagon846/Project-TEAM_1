@@ -21,7 +21,7 @@ from src.utils.py_logger import get_logger
 
 from fastapi.templating import Jinja2Templates
 
-logger = get_logger(__name__)
+# logger = get_logger(__name__)
 
 
 @asynccontextmanager
