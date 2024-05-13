@@ -59,7 +59,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-ALLOWED_IPS = [ip_address("127.0.0.1"), ]
+ALLOWED_IPS = [ip_address("127.0.0.1"), ip_address("0.0.0.0") ]
 
 
 @app.middleware("http")
